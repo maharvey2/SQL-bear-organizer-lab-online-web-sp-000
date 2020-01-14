@@ -1,17 +1,17 @@
 def selects_all_female_bears_return_name_and_age
-  "Write your SQL query here"
+  'Select name, age From bears Where gender = "F";'
 end
 
 def selects_all_bears_names_and_orders_in_alphabetical_order
-  "Write your SQL query here"
+  "Select name From bears Order By name Asc;"
 end
 
 def selects_all_bears_names_and_ages_that_are_alive_and_order_youngest_to_oldest
-  "Write your SQL query here"
+  "Select name, age From bears Where alive = 1 Order by age Asc;"
 end
 
 def selects_oldest_bear_and_returns_name_and_age
-  "Write your SQL query here"
+  "You are here"
 end
 
 def select_youngest_bear_and_returns_name_and_age
